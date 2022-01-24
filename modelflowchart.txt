@@ -1,0 +1,24 @@
+-Uploaded all the necessary libraries
+-Import module warnings to ignore all the future warnings
+-imported dataset ratings
+-performed eda on dataset ratings
+	-dataset.info
+	-are there any duplicate values inside the dataset?
+	-is there any null value inside any cell
+	-if present, dropped all such records
+	-plotted a histogram on user ratings
+-imported dataset books.csv
+-created a smaller dataset min_books dropping all the unimportant columns from books.csv
+-split the ratings dataset into training and testing dataset
+-building recommedation system using tensorflow keras
+	-created books embeddins layer
+	-created user embeddings layer
+	-concatenated together
+	-dense layer
+	-output
+-saved the model, if model already saved use it using os.path.exists
+-evaluating model
+-calculating the model accuracy
+-making predictions
+-plotting principal component analysis using scatterplot
+-storing the model into json file
